@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+    }
+    
+    
+    section{
+        width: 100%;
+        height: 100vh;
+        background-image: url("image/wallpaper4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+    #header{
+        width: 100%;
+        height: 17vh;
+        display: flex;
+        justify-content: space-between;
+        place-items: center;
+      
+    
+    }
+    #header img{
+    width: 100px;
+    margin-bottom: -50px;
+    margin-left: 50px;
+    }
+    #head img{
+        width: 100px;
+        margin-left: 500px;
+        margin-bottom: -200px;
+        box-shadow: 0px 0px 35px rgb(255, 238, 0);
+        border-radius: 90px;
+        cursor: pointer;
+    }
+    
+    section
+    
+    #header nav ul li{
+        display: inline-block;
+        font-size: 27px;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+    
+    #header nav ul li a{
+        text-decoration: none;
+        color: rgb(255, 175, 4); 
+    }
+    
+    #headCenter h1{
+        color: rgba(221, 188, 0, 0.356);
+        font-size: 70px;
+        text-shadow: 3px 5px 9px rgb(255, 102, 0, 0.568);
+    }
+    
+    #headCenter{
+        width: 100%;
+        height: 13vh; 
+        display: flex;
+        justify-content: left;
+        place-items:center ;
+    }
+    #head{
+
+    }
+    
+    #head{
+        width: 100%;
+        height: 30vh; 
+        display: flex;
+        justify-content: left;
+        place-items:center ;
+    }
+    #headCenter h1:hover{
+        text-shadow: 3px 5px 16px rgb(251, 255, 0);
+        transition: 1.0s;
+    
+    }
+    
+    #header nav ul li a:hover{
+        color: rgb(229, 255, 0);
+        /* border-bottom: 2px solid red; */
+        transition: 0.5s;
+        text-decoration: none;
+    
+    }
+    #head h1:hover{
+        text-shadow: 3px 5px 16px rgb(229, 255, 0);
+        transition: 1.0s;
+    
+    }
+    
+    #article{
+        color:rgb(0, 0, 0);
+        font-size: 35px;
+        background-image: url("image/save2.jpg");
+        background-repeat: no-repeat;
+        background-size:cover ;
+        display: flex;
+        justify-content: space-between;
+        place-items: right;
+        
+    
+        
+    }
+    #article:hover{
+        text-shadow: 2px 2px 9px rgb(255, 251, 0);
+        transition: 1.0s;
+        transition-delay: 0.5s;
+    
+        
+    }
+    @media(max-width:500px){
+          #header{
+              padding-left: 0%;
+          }
+          #header nav ul li a{
+              display: none;
+          }
+          #headCenter h1{
+            font-size: 50px;
+          }
+          #head h1{
+              font-size: 50px;
+          }
+          #article{
+              background-image: none;
+          }
+          #head img{
+              margin-left: 100px;
+          }
+          
+    }

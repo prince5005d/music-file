@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="music.css">
+    <title>layout</title>
+</head>
+
+<body>
+    <section>
+        <div id="header">
+            <img id="header4" src="image/logo3.jpg" alt="error404">
+            <nav>
+                <ul>
+                    <li><a href="">home </a> </li>
+                    <li><a href="">article </a> </li>
+                    <li><a href="">login </a> </li>
+                    <li><a href="">about us </a> </li>
+                    <li><a href="">contact us</a> </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="head"><img src="image/logo10.png" alt="error404  
+        check your internet connection  " id="image"></div>
+        <audio id="song">
+            <source src="image/music.mp3" type="audio/mp3">
+        </audio>
+    </section>
+    <script>
+        var pic = document.getElementById("image");
+        var music = document.getElementById("song");
+        pic.onclick = function () {
+            if (music.paused) {
+                music.play();
+                pic.scr = "image/logo12.png";
+            }
+            else {
+                music.pause();
+                pic.src = "image/logo10.png";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
